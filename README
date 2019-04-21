@@ -26,7 +26,7 @@ INSTALL
         make install
 
         # Enable this plugin in your RT_SiteConfig.pm:
-        Set(@Plugins, (qw/RT::Extension::TimeWorkedReport/) );
+        Plugin('RT::Extension::TimeWorkedReport');
 
         After restarting RT the TimeWorkedReport will be available under the Tools menu.
 
